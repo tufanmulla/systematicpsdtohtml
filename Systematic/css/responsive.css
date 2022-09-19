@@ -1,0 +1,72 @@
+/* Tablet Layout */
+@media only screen and (min-width: 12.5rem) and (max-width: 61.938rem){
+  .social_area{
+    max-width: 28.75rem;
+    padding-top: 0.875rem;
+  }
+  .inner_menu{
+    background: none;
+    min-height: auto;
+  }
+  .inner_menu::after{
+    display: none;
+  }
+  .mean-container .mean-nav{
+    margin-top: 0;
+    width: 80%;
+  }
+  .inner_header{
+    padding: 1.25rem 0;
+  }
+  #slider_area{
+    margin-top: 0;
+  }
+
+  .inner_hero h2{
+    font-size: 3.438rem;
+  }
+}
+
+/* Mobile Layout */
+@media only screen and (min-width: 12.5rem) and (max-width: 30rem){
+  .mini_menu{
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+  .mini_menu ul, .social_area ul{
+    text-align: center;
+  }
+  .search_area, .logo_area{
+    float: none;
+    width: 15.625rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .social_area ul li{
+    margin: 0 0.313rem;
+  }
+  .inner_hero h2{
+    font-size: 1.563rem;
+  }
+  .inner_hero{
+    overflow: hidden;
+    padding-bottom: 1.25rem;
+  }
+  #work_area #footer_area{
+    padding: 1.25rem 0;
+  }
+  .child_work{
+    width: 98%;
+  }
+  .child_footer{
+    width: 96%;
+  }
+  .left_copyright{
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+  .right_copyright{
+    text-align: center;
+    width: 100%;
+  }
+}
